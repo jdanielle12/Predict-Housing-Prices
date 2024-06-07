@@ -35,6 +35,20 @@ These libraries can be installed using pip. Ensure you have them installed befor
 ### Loading the Data
 The first step involves loading the dataset and examining its structure. This includes checking the data types of each column and displaying the first few rows of the dataset to get an initial understanding of the data.
 
+### Handling Missing Values
+Missing values are identified and handled appropriately. Numerical features are imputed with their mean values to ensure there are no gaps in the data, which could otherwise affect the performance of the machine learning models.
+
+### Feature Engineering
+New features are created to enhance the dataset. For example, `TotalSF` is the sum of the first floor, second floor, and basement square footage, and `Age` is the difference between the year sold and the year built. These features can potentially improve the predictive power of the models. 
+
+### Selecting Important Features
+Key features relevant to predicting the house prices are selected. This step reduces the dimensionality of the dataset and focuses on the more impactful variables.
+
+## Exploratory Data Analysis
+EDA helps to understand the underlying patterns and distributions in the data. Several visualization techniques are employed:
+
+### Summary Statistics
+Summary statistics provide an overview of the dataset, including measures of central tendency and variability. 
 
 
 ### Contributors
