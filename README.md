@@ -72,6 +72,40 @@ Box plots are used to identify outliers in numerical features. Outliers can sign
 ### Splitting the Data
 The dataset is split into training and testing sets to evaluate the models' performance. The training set is used to train the models, and the testing set is used to evaluate how well the models generalize to unseen data.
 
+### Model Evaluation
+Several regression models are trained and evaluated, including:
+
+* Linear Regression
+* Decision Tree Regressor
+* Random Forest Regressor
+* Gradient Boosting Regressor
+
+Each model's performance is measured using metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared ($R^2$)
+
+### Feature Importance
+For tree-based models, feature importance scores are calculated to identify the most influential features in predicting house prices. This helps in understanding the key drivers of the target variable.
+
+## Hyperparameter Tuning
+Hyperparameter tuning is performed using Grid Search to find the best parameters for each model. This step involves testing different combinations of hyperparameters to improve the models' performance.
+
+## Forecasting Future Trends
+The Facebook Prophet model is used for time series forecasting to predict future housing price trends. The dataset is prepared for Prophet, and the model is trained to forecast future sale prices based on historical data.
+![Forecast](images/prophetforecast.png)
+
+## Results
+The results of the models are compiled and compared based on their performance metrics. Visualizations are created to compare the predicted values with actual values and to highlight the top features for tree-based models. 
+
+## Conclusion
+This project demonstrates a comprehensive approach to predicting and forecasting house prices using the Ames Housing dataset. By leveraging various machine learning models and the Prophet time series forecasting model, we can make informed predictions and forecasts. The key finding and model performances are summarized, providing insights into the effectiveness of different models and features. 
+
+## Usage
+To use this project, follow these steps:
+
+1. Clone the repository:
+`git clone https://github.com/jdanielle12/Predict-Housing-Prices`
+2. Install the required dependencies:
+`pip install pandas numpy matplotlib seaborn scikit-learn prophet`
+1. Run the notebook or script to preprocess the data, perform EDA, train and evaluate models, tune hyperparameters, and forecast future trends.
 
 
 ### Contributors
