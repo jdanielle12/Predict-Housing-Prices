@@ -76,8 +76,11 @@ The dataset is split into training and testing sets to evaluate the models' perf
 Several regression models are trained and evaluated, including:
 
 **Linear Regression** 
+
 **Decision Tree Regressor**
+
 **Random Forest Regressor**
+
 **Gradient Boosting Regressor**
 
 Each model's performance is measured using metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared ($R^2$)
