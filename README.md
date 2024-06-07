@@ -107,6 +107,9 @@ To use this project, follow these steps:
 `pip install pandas numpy matplotlib seaborn scikit-learn prophet`
 1. Run the notebook or script to preprocess the data, perform EDA, train and evaluate models, tune hyperparameters, and forecast future trends.
 
+## Acknowledgments
+- Kaggle for providing the [Ames Housing dataset](https://www.kaggle.com/datasets/prevek18/ames-housing-dataset).
+- The creators of the libraries used in this project: pandas, numpy, scikit-learn, seaborn, matplotlib, and Prophet.
 
 ### Contributors
 * Walter Hickman Jr. 
