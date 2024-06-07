@@ -49,6 +49,29 @@ EDA helps to understand the underlying patterns and distributions in the data. S
 
 ### Summary Statistics
 Summary statistics provide an overview of the dataset, including measures of central tendency and variability. 
+![Summary Statistics](images/SummaryStatistics.png)
+
+### Histograms
+Histograms are plotted for numerical features to visualize their distributions. This helps in understanding the spread and skewness of the data.
+![Histograms](images/histogram.png)
+
+### Scatter Plots
+Scatter plots are used to visualize the relationships between numerical features and the target variable `SalePrice`. This helps in identifying any correlations.
+![Scatter Plots](images/SummaryStatistics.png)
+
+### Correlation Heatmap
+A heatmap is generated to visualize the correlation between different features. Features with high correlation to the target variable are of particular interest.
+![Correlation Heatmap](images/heatmap.png)
+
+### Box Plots
+Box plots are used to identify outliers in numerical features. Outliers can significantly affect the performance of machine learning models and may need to be handled appropriately. 
+![Box Plots](images/boxplots.png)
+
+## Model Training and Evaluation
+
+### Splitting the Data
+The dataset is split into training and testing sets to evaluate the models' performance. The training set is used to train the models, and the testing set is used to evaluate how well the models generalize to unseen data.
+
 
 
 ### Contributors
