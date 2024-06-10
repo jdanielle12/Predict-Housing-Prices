@@ -57,7 +57,7 @@ Histograms are plotted for numerical features to visualize their distributions. 
 
 ### Scatter Plots
 Scatter plots are used to visualize the relationships between numerical features and the target variable `SalePrice`. This helps in identifying any correlations.
-![Scatter Plots](images/SummaryStatistics.png)
+![Scatter Plots](images/scatterplot.png)
 
 ### Correlation Heatmap
 A heatmap is generated to visualize the correlation between different features. Features with high correlation to the target variable are of particular interest.
