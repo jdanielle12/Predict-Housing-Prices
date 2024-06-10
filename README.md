@@ -85,6 +85,8 @@ Several regression models are trained and evaluated, including:
 
 Each model's performance is measured using metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared ($R^2$)
 
+![Model Evaluation](images/ModelScores.png)
+
 ### Feature Importance
 For tree-based models, feature importance scores are calculated to identify the most influential features in predicting house prices. This helps in understanding the key drivers of the target variable.
 
