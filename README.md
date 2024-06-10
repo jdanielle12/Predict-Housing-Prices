@@ -61,7 +61,7 @@ Scatter plots are used to visualize the relationships between numerical features
 
 ### Correlation Heatmap
 A heatmap is generated to visualize the correlation between different features. Features with high correlation to the target variable are of particular interest.
-![Correlation Heatmap](images/heatmap.png)
+![Correlation Heatmap](images/heatmap2.png)
 
 ### Box Plots
 Box plots are used to identify outliers in numerical features. Outliers can significantly affect the performance of machine learning models and may need to be handled appropriately. 
