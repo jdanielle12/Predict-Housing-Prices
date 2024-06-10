@@ -17,7 +17,7 @@
 This project aims to analyze the Ames Housing dataset to predict house prices using various regression models and to forecast future trends using the Facebook Prophet model. The project involves data preprocessing, exploratory data analysis (EDA), model training and evaluation, hyperparameter tuning, and time series forecasting.
 
 ## Dataset
-The dataset used in this project is the Ames Housing dataset from Kaggle, which includes numeroud features describing houses in Ames, Iowa, along with their sale prices. The dataset can be accessed [here](https://www.kaggle.com/datasets/shashanknecrothapa/ames-housing-dataset)
+The dataset used in this project is the Ames Housing dataset from Kaggle, which includes numerous features describing houses in Ames, Iowa, along with their sale prices. The dataset can be accessed [here](https://www.kaggle.com/datasets/shashanknecrothapa/ames-housing-dataset)
 
 ## Dependencies
 The project requires the following Python libraries:
